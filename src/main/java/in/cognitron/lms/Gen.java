@@ -18,20 +18,6 @@ public class Gen {
 	private static final String TS_ROOT = "/Users/supreethavadhani/workspace/metadev-client-example/src/app/framework-modules/formdata/gen/";
 	private static final String TS_FORM_IMPORT_PREFIX = "../form/";
 
-//	private static final String SPEC_ROOT = "/Users/cognitrontechnologies/workspace/ws/banyantree-server/assets/spec/";
-//	private static final String JAVA_ROOT = "/Users/cognitrontechnologies/workspace/ws/banyantree-server/src/main/java/";
-//	private static final String TS_ROOT = "/Users/cognitrontechnologies/workspace/ws/banyantreeclient/src/app/framework-modules/formdata/gen/";
-
-	/**
-	 * Bhandi's Workspace
-	 */
-	// private static final String SPEC_ROOT =
-	// "c:/repos/bt-server/assets/spec/";
-	// private static final String JAVA_ROOT =
-	// "c:/repos/bt-server/src/main/java/";
-	// private static final String TS_ROOT =
-	// "c:/repos/bt-client/src/app/framework-modules/formdata/gen/";
-
 	/**
 	 *
 	 * @param args

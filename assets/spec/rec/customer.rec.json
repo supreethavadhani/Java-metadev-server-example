@@ -1,7 +1,7 @@
 {
     "name": "customer",
     "nameInDb": "customers",
-    "operations":["create","update"],
+    "operations":["create","update","filter"],
     "fields": [
         {
             "name": "customerId",

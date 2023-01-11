@@ -3,7 +3,7 @@
     "name": "customer",
     "recordName": "customer",
     "serveGuests": true,
-    "operations": ["create","update"],
+    "operations": ["create","filter"],
      "controls": [
         {
             "name": "customerId",
