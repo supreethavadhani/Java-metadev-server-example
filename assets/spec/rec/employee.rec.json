@@ -1,12 +1,12 @@
 {
-    "name": "customer",
-    "nameInDb": "customers",
+    "name": "employee",
+    "nameInDb": "employees",
     "operations":["create","update","filter","get"],
     "fields": [
         {
-            "name": "customerId",
+            "name": "employeeId",
             "dataType": "flexibleId",
-            "dbColumnName": "customer_id",
+            "dbColumnName": "employee_id",
             "fieldType": "generatedPrimaryKey"
         },
         {
@@ -22,12 +22,6 @@
             "fieldType": "requiredData"
         },
         {
-            "name": "addressLine1",
-            "dataType": "text",
-            "dbColumnName": "address_line1",
-            "fieldType": "optionalData"
-        },
-        {
             "name": "gender",
             "dataType": "text",
             "dbColumnName": "gender",
@@ -35,21 +29,9 @@
             "listName":"gender"
         },
         {
-            "name": "prefferedName",
-            "dataType": "name",
-            "dbColumnName": "pref_name",
-            "fieldType": "optionalData"
-        },
-        {
             "name": "phone",
             "dataType": "phone",
             "dbColumnName": "phone_number",
-            "fieldType": "optionalData"
-        },
-                {
-            "name": "university",
-            "dataType": "name",
-            "dbColumnName": "uni_name",
             "fieldType": "optionalData"
         }
     ]

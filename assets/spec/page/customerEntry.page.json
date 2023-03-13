@@ -1,0 +1,6 @@
+{
+	"pageName":"customerEntry",
+	"componentForm":"customer",
+	"templateType":"tableTemplate",
+	"pageSelector":"app-customer-entry"
+}

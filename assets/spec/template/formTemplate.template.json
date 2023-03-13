@@ -1,0 +1,17 @@
+{
+	"templateName":"formTemplate",
+	"htmlSelector":"app-form-template",
+	"templateType":"form",
+	"buttons":[
+		{ 
+			"name":"Save Data",
+			"action":"Create",
+			"buttonType":"Primary"
+		},
+		{ 
+			"name":"Cancel",
+			"action":"Cancel",
+			"buttonType":"Primary"
+		}
+	]
+}

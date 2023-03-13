@@ -1,0 +1,7 @@
+{
+	"templateName":"tableTemplate",
+	"htmlSelector":"app-table-template",
+	"templateType":"table",
+	"buttons":[
+	]
+}
