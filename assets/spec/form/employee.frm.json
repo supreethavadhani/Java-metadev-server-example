@@ -1,0 +1,32 @@
+{
+    "description": "A simple customer CRUD form",
+    "name": "employee",
+    "recordName": "employee",
+    "operations": ["create","filter","get"],
+     "controls": [
+         {
+            "name": "employeeId",
+            "controlType":"hidden"
+        },
+        {
+            "name": "name",
+            "controlType":"input",
+            "label":"Customer Name"
+        },
+        {
+            "name": "email",
+            "controlType":"input",
+            "label":"email"
+        },
+        {
+         	"name": "gender",
+         	"controlType":"dropdown",
+        	"label":"Gender"
+        },
+        {
+            "name": "phone",
+         	"controlType":"input",
+         	"label":"Phone Name "
+        }
+      ]
+   }

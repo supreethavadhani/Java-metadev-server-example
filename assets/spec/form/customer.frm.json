@@ -3,8 +3,12 @@
     "name": "customer",
     "recordName": "customer",
     "serveGuests": true,
-    "operations": ["create","filter"],
+    "operations": ["create","filter","get"],
      "controls": [
+          {
+            "name": "customerId",
+            "controlType":"hidden"
+        },
         {
             "name": "name",
             "controlType":"input",
@@ -24,6 +28,21 @@
          "name": "gender",
          "controlType":"dropdown",
          "label":"Gender"
+        },
+        {
+         	"name": "prefferedName",
+         	"controlType":"input",
+         	"label":"Prefered Name "
+        },
+        {
+            "name": "phone",
+         	"controlType":"input",
+         	"label":"Phone Name "
+        },
+                {
+            "name": "university",
+         	"controlType":"input",
+         	"label":"University Name "
         }
       ]
    }
