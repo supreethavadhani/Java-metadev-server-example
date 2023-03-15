@@ -1,0 +1,7 @@
+{
+	"pageName":"employeeEntry",
+	"componentForm":"employee",
+	"templateType":"formTemplate",
+	"pageSelector":"app-empolyee-entry",
+	"pageRoute":"employee-entry"
+}

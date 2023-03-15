@@ -1,0 +1,7 @@
+{
+	"pageName":"studentEntry",
+	"componentForm":"student",
+	"templateType":"formTemplate",
+	"pageSelector":"app-student-entry",
+	"pageRoute":"student-entry"
+}

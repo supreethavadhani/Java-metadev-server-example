@@ -1,0 +1,7 @@
+{
+	"pageName":"employeeView",
+	"componentForm":"empolyee",
+	"templateType":"tableTemplate",
+	"pageSelector":"app-empolyee-view",
+	"pageRoute":"employee-view"
+}

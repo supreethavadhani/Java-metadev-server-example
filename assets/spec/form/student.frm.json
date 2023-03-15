@@ -1,12 +1,12 @@
 {
     "description": "A simple customer CRUD form",
-    "name": "employee",
+    "name": "student",
+    "recordName": "student",
     "serveGuests": true,
-    "recordName": "employee",
     "operations": ["create","filter","get"],
      "controls": [
-         {
-            "name": "employeeId",
+          {
+            "name": "studentId",
             "controlType":"hidden"
         },
         {
@@ -18,16 +18,6 @@
             "name": "email",
             "controlType":"input",
             "label":"email"
-        },
-        {
-         	"name": "gender",
-         	"controlType":"dropdown",
-        	"label":"Gender"
-        },
-        {
-            "name": "phone",
-         	"controlType":"input",
-         	"label":"Phone Name "
         }
       ]
    }

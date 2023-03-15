@@ -1,0 +1,17 @@
+{
+	"templateName":"tableTemplateOne",
+	"htmlSelector":"app-table-template",
+	"templateType":"form",
+	"buttons":[
+		{ 
+			"name":"Save Student Info",
+			"action":"Create",
+			"buttonType":"Primary"
+		},
+		{ 
+			"name":"Reset Student",
+			"action":"Cancel",
+			"buttonType":"Primary"
+		}
+	]
+}

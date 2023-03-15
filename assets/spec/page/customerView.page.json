@@ -1,0 +1,7 @@
+{
+	"pageName":"customerView",
+	"componentForm":"customer",
+	"templateType":"tableTemplate",
+	"pageSelector":"app-customer-view",
+	"pageRoute":"customer-view"
+}

@@ -10,10 +10,6 @@
             "controlType":"hidden"
         },
         {
-            "name": "customerId",
-            "controlType":"hidden"
-        },
-        {
             "name": "name",
             "controlType":"input",
             "label":"Customer Name"
