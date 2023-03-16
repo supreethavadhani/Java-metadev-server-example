@@ -2,16 +2,19 @@
 	"templateName":"formTemplate",
 	"htmlSelector":"app-form-template",
 	"templateType":"form",
+	"enableRoutes":True,
 	"buttons":[
 		{ 
-			"name":"Save Data",
+			"name":"Save",
 			"action":"Create",
-			"buttonType":"Primary"
+			"buttonType":"Primary",
+			"routeOnClick":"True"
 		},
 		{ 
-			"name":"Cancel",
-			"action":"Cancel",
-			"buttonType":"Secondary"
+			"name":"Navigate",
+			"action":"Navigate",
+			"buttonType":"Secondary",
+			"routeOnClick":"True"
 		}
 	]
 }

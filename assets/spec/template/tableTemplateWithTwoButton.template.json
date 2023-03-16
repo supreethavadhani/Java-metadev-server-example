@@ -1,0 +1,20 @@
+{
+	"templateName":"tableTemplateWithTwoButton",
+	"htmlSelector":"app-two-table-template",
+	"templateType":"table",
+	"enableRoutes":True,
+	"buttons":[ 
+		{ 
+			"name":"Navigate to Employee View",
+			"action":"Navigate",
+			"buttonType":"Primary",
+			"routeOnClick":"True"
+		},
+		{ 
+			"name":"Navigate to Customer View",
+			"action":"Navigate",
+			"buttonType":"Secondary",
+			"routeOnClick":"True"
+		}
+	]
+}

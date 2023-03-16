@@ -2,6 +2,31 @@
 	"templateName":"tableTemplate",
 	"htmlSelector":"app-table-template",
 	"templateType":"table",
-	"buttons":[
+	"enableRoutes":True,
+	"buttons":[ 
+		{ 
+			"name":"Navigate to Customer Entry",
+			"action":"Navigate",
+			"buttonType":"Secondary",
+			"routeOnClick":"True"
+		},
+		{ 
+			"name":"Navigate to Employee Entry",
+			"action":"Navigate",
+			"buttonType":"Secondary",
+			"routeOnClick":"True"
+		},
+		{ 
+			"name":"Navigate to Customer View",
+			"action":"Navigate",
+			"buttonType":"Secondary",
+			"routeOnClick":"True"
+		},
+		{ 
+			"name":"Navigate to Employee View",
+			"action":"Navigate",
+			"buttonType":"Secondary",
+			"routeOnClick":"True"
+		}
 	]
 }

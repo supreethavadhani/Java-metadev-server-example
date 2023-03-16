@@ -3,5 +3,15 @@
 	"componentForm":"employee",
 	"templateType":"formTemplate",
 	"pageSelector":"app-empolyee-entry",
-	"pageRoute":"employee-entry"
+	"pageRoute":"employee-entry",
+	"routes": [
+		{
+			"name":"Save",
+			"routeTo": "employeeView"
+		},
+		{
+			"name":"Navigate",
+			"routeTo": "employeeView"
+		}
+	]
 }

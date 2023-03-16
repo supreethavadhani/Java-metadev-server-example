@@ -3,5 +3,15 @@
 	"componentForm":"student",
 	"templateType":"formTemplate",
 	"pageSelector":"app-student-entry",
-	"pageRoute":"student-entry"
+	"pageRoute":"student-entry",
+		"routes": [
+		{
+			"name":"Save",
+			"routeTo": "customerView"
+		},
+		{
+			"name":"Navigate",
+			"routeTo": "customerView"
+		}
+	]
 }

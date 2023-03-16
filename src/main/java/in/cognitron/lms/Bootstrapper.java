@@ -22,14 +22,13 @@ public class Bootstrapper implements AppConfigProvider {
 		config.appRootPackage = this.getClass().getPackage().getName();
 		config.dbConnectionFactory = dbSetupWithConString();
 		config.contextFactory = new ContextFactory();
-		config.texter = new Texter();
 		return config;
 	}
 
 	/*
 	 * these have to be taken from a config file in production..
 	 */
-	private static final String CON_STRING ="jdbc:postgresql://localhost:5432/bt?user=supreeth";
+	private static final String CON_STRING = "jdbc:postgresql://localhost:5432/bt?user=supreeth";
 
 	private static final String DRIVER_NAME = "org.postgresql.Driver";
 	// private static final String DB_FACTORY = "dbFactoryClassName";
@@ -69,8 +68,7 @@ public class Bootstrapper implements AppConfigProvider {
 	@SuppressWarnings("unused")
 	private static IDbConnectionFactory dbSetupWithCustomFctory() {
 		/*
-		 * write the code to get the factory, whichever you are supposed to get
-		 * it..
+		 * write the code to get the factory, whichever you are supposed to get it..
 		 */
 		final IDbConnectionFactory factory = null;
 		// logger.info("Setting up db with a custom connection factory class
