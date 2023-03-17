@@ -24,8 +24,7 @@ public class LmsServiceContext extends DefaultContext {
 	private final UserContextRecord user;
 
 	/**
-	 * @param utx
-	 *            null if there is no authenticated user
+	 * @param utx    null if there is no authenticated user
 	 * @param writer
 	 */
 	public LmsServiceContext(final LmsUserContext utx, final ISerializer writer) {
@@ -44,7 +43,6 @@ public class LmsServiceContext extends DefaultContext {
 		}
 		super.setTenantId(this.tenentId);
 	}
-
 
 	/**
 	 *
@@ -99,7 +97,7 @@ public class LmsServiceContext extends DefaultContext {
 	public UserType getUserType() {
 		return UserType.valueOf(this.user.getUserType());
 	}
-	
+
 	/**
 	 * set the current season context for the server
 	 */

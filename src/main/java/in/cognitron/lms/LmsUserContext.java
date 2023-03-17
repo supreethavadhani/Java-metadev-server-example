@@ -6,6 +6,7 @@
 package in.cognitron.lms;
 
 import org.simplity.fm.core.UserContext;
+
 import in.cognitron.lms.gen.rec.TenentConfigurationRecord;
 import in.cognitron.lms.gen.rec.UserContextRecord;
 
@@ -38,8 +39,8 @@ public class LmsUserContext extends UserContext {
 	}
 
 	/**
-	 * @return user data associated with the logged-in user. Note that the
-	 *         returned record is mutable, but the caller MUST
+	 * @return user data associated with the logged-in user. Note that the returned
+	 *         record is mutable, but the caller MUST
 	 */
 	public UserContextRecord getUser() {
 		return (UserContextRecord) this.user.makeACopy();
@@ -51,6 +52,5 @@ public class LmsUserContext extends UserContext {
 	public TenentConfigurationRecord getTenentConfig() {
 		return (TenentConfigurationRecord) this.tenentConfig.makeACopy();
 	}
-	
 
 }

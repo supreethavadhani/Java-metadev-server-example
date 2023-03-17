@@ -3,5 +3,15 @@
 	"componentForm":"customer",
 	"templateType":"formTemplate",
 	"pageSelector":"app-customer-entry",
-	"pageRoute":"customer-entry"
+	"pageRoute":"customer-entry",
+		"routes": [
+		{
+			"name":"Save",
+			"routeTo": "customerView"
+		},
+		{
+			"name":"Navigate",
+			"routeTo": "customerView"
+		}
+	]
 }
