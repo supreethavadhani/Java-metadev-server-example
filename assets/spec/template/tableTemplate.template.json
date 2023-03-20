@@ -2,7 +2,7 @@
 	"templateName":"tableTemplate",
 	"htmlSelector":"app-table-template",
 	"templateType":"table",
-	"enableRoutes":True,
+	"enableRoutes":true,
 	"buttons":[ 
 		{ 
 			"name":"Navigate to Customer Entry",

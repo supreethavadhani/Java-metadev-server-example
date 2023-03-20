@@ -2,7 +2,7 @@
 	"templateName":"formTemplate",
 	"htmlSelector":"app-form-template",
 	"templateType":"form",
-	"enableRoutes":True,
+	"enableRoutes":true,
 	"buttons":[
 		{ 
 			"name":"Save",

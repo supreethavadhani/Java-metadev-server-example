@@ -1,0 +1,25 @@
+{
+    "name": "returns",
+    "nameInDb": "returns",
+    "operations":["create","update","filter","get"],
+    "fields": [
+        {
+            "name": "returnId",
+            "dataType": "flexibleId",
+            "dbColumnName": "return_id",
+            "fieldType": "generatedPrimaryKey"
+        },
+        {
+            "name": "returnNumber",
+            "dataType": "integer",
+            "dbColumnName": "return_number",
+            "fieldType": "requiredData"
+        },
+        {
+            "name": "returnName",
+            "dataType": "name",
+            "dbColumnName": "return_name",
+            "fieldType": "optionalData"
+        }
+    ]
+}

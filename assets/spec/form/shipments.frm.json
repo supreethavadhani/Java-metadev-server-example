@@ -1,0 +1,23 @@
+{
+    "name": "shipments",
+    "recordName": "shipments",
+    "serveGuests": "",
+    "operations": [],
+    "controls": [
+        {
+            "name": "shipmentid",
+            "label": "",
+            "controlType": "hidden"
+        },
+        {
+            "name": "shipmentName",
+            "label": "Shipment Name",
+            "controlType": "input"
+        },
+        {
+            "name": "shipmentNumber",
+            "label": "Shipment Number",
+            "controlType": "input"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"pageName":"orderEntry",
+	"componentForm":"order",
+	"templateType":"formTemplate",
+	"pageSelector":"app-order-entry",
+	"pageRoute":"order-entry",
+	"routes": [
+		{
+			"name":"Save",
+			"routeTo": "orderView"
+		},
+		{
+			"name":"Navigate",
+			"routeTo": "orderView"
+		}
+	]
+}

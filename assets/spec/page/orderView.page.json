@@ -1,0 +1,14 @@
+{
+	"pageName":"orderView",
+	"componentForm":"order",
+	"templateType":"tableTemplate",
+	"pageSelector":"app-order-view",
+	"pageRoute":"order-view",
+	"navMenuName": "Orders",
+	"routes":[
+		{ 
+			"name":"Add a new Record",
+			"routeTo":"orderEntry"
+		}
+	]
+}
