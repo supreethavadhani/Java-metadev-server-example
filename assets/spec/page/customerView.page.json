@@ -4,11 +4,22 @@
 	"templateType":"tableTemplate",
 	"pageSelector":"app-customer-view",
 	"pageRoute":"customer-view",
-	"navMenuName": "Customers",
 	"routes":[
 		{ 
-			"name":"Add a new Record",
+			"name":"Navigate to Customer Entry",
 			"routeTo":"customerEntry"
+		},
+		{ 
+			"name":"Navigate to Employee Entry",
+			"routeTo":"employeeEntry"
+		},
+		{ 
+			"name":"Navigate to Customer View",
+			"routeTo":"customerView"
+		},
+		{ 
+			"name":"Navigate to Employee View",
+			"routeTo":"employeeView"
 		}
 	]
 }

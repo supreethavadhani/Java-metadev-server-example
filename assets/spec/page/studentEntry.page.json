@@ -1,9 +1,9 @@
 {
-	"pageName":"customerEntry",
-	"componentForm":"customer",
+	"pageName":"studentEntry",
+	"componentForm":"student",
 	"templateType":"formTemplate",
-	"pageSelector":"app-customer-entry",
-	"pageRoute":"customer-entry",
+	"pageSelector":"app-student-entry",
+	"pageRoute":"student-entry",
 		"routes": [
 		{
 			"name":"Save",

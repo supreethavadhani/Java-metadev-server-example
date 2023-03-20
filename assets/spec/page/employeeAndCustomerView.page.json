@@ -1,0 +1,17 @@
+{
+	"pageName":"employeeAndCustomerView",
+	"componentForm":"customer",
+	"templateType":"tableTemplateWithTwoButton",
+	"pageSelector":"app-emp-cust-view",
+	"pageRoute":"emp-cust",
+		"routes": [
+		{
+			"name":"Navigate to Employee View",
+			"routeTo": "employeeView"
+		},
+		{
+			"name":"Navigate to Customer View",
+			"routeTo": "customerView"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"pageName":"studentView",
+	"componentForm":"student",
+	"templateType":"tableTemplate",
+	"pageSelector":"app-student-view",
+	"pageRoute":"student-view",
+		"routes": [
+		{
+			"name":"Save",
+			"routeTo": "customerView"
+		},
+		{
+			"name":"Navigate",
+			"routeTo": "customerView"
+		}
+	]
+}
