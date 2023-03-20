@@ -4,22 +4,11 @@
 	"templateType":"tableTemplate",
 	"pageSelector":"app-empolyee-view",
 	"pageRoute":"employee-view",
+	"navMenuName": "Employees",
 	"routes":[
 		{ 
-			"name":"Navigate to Customer Entry",
-			"routeTo":"customerEntry"
-		},
-		{ 
-			"name":"Navigate to Employee Entry",
+			"name":"Add a new Record",
 			"routeTo":"employeeEntry"
-		},
-		{ 
-			"name":"Navigate to Customer View",
-			"routeTo":"customerView"
-		},
-		{ 
-			"name":"Navigate to Employee View",
-			"routeTo":"employeeView"
 		}
 	]
 }

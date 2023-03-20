@@ -4,7 +4,7 @@
 	"templateType":"formTemplate",
 	"pageSelector":"app-customer-entry",
 	"pageRoute":"customer-entry",
-		"routes": [
+	"routes": [
 		{
 			"name":"Save",
 			"routeTo": "customerView"

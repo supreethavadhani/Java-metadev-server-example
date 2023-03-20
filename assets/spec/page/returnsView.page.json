@@ -1,0 +1,14 @@
+{
+	"pageName":"returnsView",
+	"componentForm":"returns",
+	"templateType":"tableTemplate",
+	"pageSelector":"app-return-view",
+	"pageRoute":"return-view",
+	"navMenuName": "Returns",
+	"routes":[
+		{ 
+			"name":"Add a new Record",
+			"routeTo":"returnsEntry"
+		}
+	]
+}

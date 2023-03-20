@@ -1,0 +1,28 @@
+{
+    "name": "shipments",
+    "nameInDb": "shipments",
+    "operations": [
+        "Create",
+        "Filter"
+    ],
+    "fields": [
+        {
+            "name": "shipmentid",
+            "dbColumnName": "shipment_id",
+            "dataType": "id",
+            "fieldType": "generatedPrimaryKey"
+        },
+        {
+            "name": "shipmentName",
+            "dbColumnName": "shipment_name",
+            "dataType": "name",
+            "fieldType": "requiredData"
+        },
+        {
+            "name": "shipmentNumber",
+            "dbColumnName": "shipment_number",
+            "dataType": "integer",
+            "fieldType": "optionalData"
+        }
+    ]
+}

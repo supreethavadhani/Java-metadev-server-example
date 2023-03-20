@@ -1,23 +1,23 @@
 {
     "description": "A simple customer CRUD form",
-    "name": "student",
-    "recordName": "student",
+    "name": "returns",
+    "recordName": "returns",
     "serveGuests": true,
     "operations": ["create","filter","get"],
      "controls": [
           {
-            "name": "studentId",
+            "name": "returnId",
             "controlType":"hidden"
         },
         {
-            "name": "name",
+            "name": "returnNumber",
             "controlType":"input",
-            "label":"Customer Name"
+            "label":"Return Number"
         },
         {
-            "name": "email",
+            "name": "returnName",
             "controlType":"input",
-            "label":"email"
+            "label":"Name of the order"
         }
       ]
    }
