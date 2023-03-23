@@ -1,0 +1,19 @@
+{
+    "name": "orders",
+    "recordName": "orders",
+    "serveGuests": true,
+    "operations": ["Create", "Filter", "Get", "Update"],
+    "controls": [{
+        "name": "orderId",
+        "label": "",
+        "controlType": "hidden"
+    }, {
+        "name": "orderName",
+        "label": "Order Name",
+        "controlType": "input"
+    }, {
+        "name": "orderNumber",
+        "label": "Order Number",
+        "controlType": "input"
+    }]
+}

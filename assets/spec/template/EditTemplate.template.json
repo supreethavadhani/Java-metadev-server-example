@@ -1,0 +1,1 @@
+{"templateName":"EditTemplate","htmlSelector":"app-edit-template","templateType":"form","enableRoutes":true,"buttons":[{"name":"Save","action":"Update","buttonType":"Primary","routeOnClick":true},{"name":"Cancel","action":"Navigate","buttonType":"Secondary","routeOnClick":true}]}

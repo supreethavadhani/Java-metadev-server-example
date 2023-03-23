@@ -1,0 +1,1 @@
+{"pageName":"orderEdit","componentForm":"orders","templateType":"EditTemplate","pageSelector":"app-order-edit","pageRoute":"order-edit","navMenuName":"","isSavePage":true,"editRoute":"","routeTo":[{"name":"Save","route":"orderList"},{"name":"Cancel","route":"orderList"}]}

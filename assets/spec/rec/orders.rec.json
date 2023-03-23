@@ -1,0 +1,21 @@
+{
+    "name": "orders",
+    "nameInDb": "orders",
+    "operations": ["Create", "Filter", "Get", "Update"],
+    "fields": [{
+        "name": "orderId",
+        "dbColumnName": "order_id",
+        "dataType": "id",
+        "fieldType": "generatedPrimaryKey"
+    }, {
+        "name": "orderName",
+        "dbColumnName": "order_name",
+        "dataType": "name",
+        "fieldType": "requiredData"
+    }, {
+        "name": "orderNumber",
+        "dbColumnName": "order_number",
+        "dataType": "integer",
+        "fieldType": "optionalData"
+    }]
+}

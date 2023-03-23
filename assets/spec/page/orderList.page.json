@@ -1,0 +1,1 @@
+{"pageName":"orderList","componentForm":"orders","templateType":"tableTemplate","pageSelector":"app-order-list","pageRoute":"order-list","navMenuName":"Orders","isSavePage":"","editRoute":"orderEdit","routeTo":[{"name":"add new record","route":"orderEntry"}]}

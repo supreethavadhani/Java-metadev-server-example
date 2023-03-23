@@ -1,0 +1,1 @@
+{"pageName":"orderEntry","componentForm":"orders","templateType":"EntryPage","pageSelector":"app-order-entry","pageRoute":"order-entry","navMenuName":"","isSavePage":"","editRoute":"","routeTo":[{"name":"Save Record","route":"orderList"},{"name":"Navigate Back","route":"orderList"}]}
