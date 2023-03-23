@@ -1,17 +1,1 @@
-{
-	"pageName":"customerEntry",
-	"componentForm":"customer",
-	"templateType":"formTemplate",
-	"pageSelector":"app-customer-entry",
-	"pageRoute":"customer-entry",
-		"routes": [
-		{
-			"name":"Save",
-			"routeTo": "customerView"
-		},
-		{
-			"name":"Navigate",
-			"routeTo": "customerView"
-		}
-	]
-}
+{"pageName":"customerEntry","componentForm":"customerList","templateType":"EntryPage","pageSelector":"app-customer-entry","pageRoute":"customer-entry","navMenuName":"","isSavePage":"","editRoute":"","routeTo":[{"name":"Save Record","route":"customerList"},{"name":"Navigate Back","route":"customerList"}]}

@@ -1,0 +1,27 @@
+{
+    "name": "customerList",
+    "recordName": "customers",
+    "serveGuests": "true",
+    "operations": ["Create", "Filter"],
+    "controls": [{
+        "name": "customerId",
+        "label": "",
+        "controlType": "hidden"
+    }, {
+        "name": "customerName",
+        "label": "Customer Name",
+        "controlType": "input"
+    }, {
+        "name": "customerEmail",
+        "label": "Customer Email",
+        "controlType": "input"
+    }, {
+        "name": "addressLine",
+        "label": "Address Line 1",
+        "controlType": "input"
+    }, {
+        "name": "uniName",
+        "label": "University Name",
+        "controlType": "input"
+    }]
+}

@@ -1,0 +1,1 @@
+{"templateName":"table-template","htmlSelector":"app-table-template","templateType":"table","enableRoutes":true,"buttons":[{"name":"add new record","action":"Navigate","buttonType":"Primary","routeOnClick":true}]}

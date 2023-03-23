@@ -1,0 +1,1 @@
+{"templateName":"EntryPage","htmlSelector":"app-entry-page","templateType":"form","enableRoutes":true,"buttons":[{"name":"Save Record","action":"Create","buttonType":"Primary","routeOnClick":true},{"name":"Navigate Back","action":"Navigate","buttonType":"Secondary","routeOnClick":true}]}

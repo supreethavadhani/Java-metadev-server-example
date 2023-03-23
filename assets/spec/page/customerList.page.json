@@ -1,0 +1,1 @@
+{"pageName":"customerList","componentForm":"customerList","templateType":"tableTemplate","pageSelector":"app-Customer-list","pageRoute":"customer-list","navMenuName":"customers","isSavePage":"","editRoute":"","routeTo":[{"name":"add new record","route":"customerEntry"}]}

@@ -1,32 +1,12 @@
 {
-	"templateName":"tableTemplate",
-	"htmlSelector":"app-table-template",
-	"templateType":"table",
-	"enableRoutes":true,
-	"buttons":[ 
-		{ 
-			"name":"Navigate to Customer Entry",
-			"action":"Navigate",
-			"buttonType":"Secondary",
-			"routeOnClick":"True"
-		},
-		{ 
-			"name":"Navigate to Employee Entry",
-			"action":"Navigate",
-			"buttonType":"Secondary",
-			"routeOnClick":"True"
-		},
-		{ 
-			"name":"Navigate to Customer View",
-			"action":"Navigate",
-			"buttonType":"Secondary",
-			"routeOnClick":"True"
-		},
-		{ 
-			"name":"Navigate to Employee View",
-			"action":"Navigate",
-			"buttonType":"Secondary",
-			"routeOnClick":"True"
-		}
-	]
+    "templateName": "tableTemplate",
+    "htmlSelector": "app-table-template",
+    "templateType": "table",
+    "enableRoutes": true,
+    "buttons": [{
+        "name": "add new record",
+        "action": "Navigate",
+        "buttonType": "Primary",
+        "routeOnClick": true
+    }]
 }
