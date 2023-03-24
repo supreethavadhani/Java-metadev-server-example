@@ -1,0 +1,1 @@
+{"pageName":"vendorList","componentForm":"vendors","templateType":"tableTemplate","pageSelector":"app-vendor-list","pageRoute":"vendor-list","navMenuName":"vendors","isSavePage":"","editRoute":"vendorEdit","routeTo":[{"name":"add new record","route":"vendorEntry"}]}

@@ -1,0 +1,30 @@
+{
+    "name": "vendors",
+    "nameInDb": "vendors",
+    "operations": ["Create", "Filter","Get","Update"],
+    "fields": [{
+        "name": "vendorId",
+        "dbColumnName": "vendor_id",
+        "dataType": "id",
+        "fieldType": "generatedPrimaryKey",
+        "listName": null
+    }, {
+        "name": "vendorName",
+        "dbColumnName": "vendor_name",
+        "dataType": "name",
+        "fieldType": "requiredData",
+        "listName": null
+    }, {
+        "name": "vendorNumber",
+        "dbColumnName": "vendor_number",
+        "dataType": "integer",
+        "fieldType": "optionalData",
+        "listName": null
+    }, {
+        "name": "vendorGender",
+        "dbColumnName": "vendor_gender",
+        "dataType": "gender",
+        "fieldType": "requiredData",
+        "listName": "gender"
+    }]
+}

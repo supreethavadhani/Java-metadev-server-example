@@ -1,0 +1,23 @@
+{
+    "name": "vendors",
+    "recordName": "vendors",
+    "serveGuests": true,
+    "operations": ["Create", "Filter","Get","Update"],
+    "controls": [{
+        "name": "vendorId",
+        "label": "",
+        "controlType": "hidden"
+    }, {
+        "name": "vendorName",
+        "label": "Name",
+        "controlType": "input"
+    }, {
+        "name": "vendorNumber",
+        "label": "Number",
+        "controlType": "textarea"
+    }, {
+        "name": "vendorGender",
+        "label": "Gender",
+        "controlType": "dropdown"
+    }]
+}

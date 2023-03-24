@@ -1,0 +1,17 @@
+{
+    "pageName": "vendorEdit",
+    "componentForm": "vendors",
+    "templateType": "EditTemplate",
+    "pageSelector": "app-vendor-edit",
+    "pageRoute": "vendor-edit",
+    "navMenuName": "",
+    "isSavePage": true,
+    "editRoute": "",
+    "routeTo": [{
+        "name": "Save",
+        "route": "vendorList"
+    }, {
+        "name": "Cancel",
+        "route": "vendorList"
+    }]
+}
