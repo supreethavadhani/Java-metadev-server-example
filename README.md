@@ -1,6 +1,7 @@
 # Metadev Server
 
 This repository has the starter code for using the Metadev framework. 
+Checkout [MV-client-example](https://github.com/supreethavadhani/angular-metadev-client-example) for a already setup client app.
 ###### The repo will be published as a maven package very soon
 
 ## Setup Instructions
