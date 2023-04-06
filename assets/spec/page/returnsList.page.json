@@ -1,0 +1,1 @@
+{"pageName":"returnsList","componentForm":"returns","templateType":"tableTemplate","pageSelector":"app-return-list","pageRoute":"return-list","navMenuName":"Returns","isSavePage":"","editRoute":"returnsEdit","routeTo":[{"name":"add new record","route":"returnsEntry"}]}

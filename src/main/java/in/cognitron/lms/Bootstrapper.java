@@ -31,8 +31,6 @@ public class Bootstrapper implements AppConfigProvider {
 	private static final String CON_STRING = "jdbc:postgresql://localhost:5432/bt?user=supreeth";
 
 	private static final String DRIVER_NAME = "org.postgresql.Driver";
-	// private static final String DB_FACTORY = "dbFactoryClassName";
-	// private static final String DB_DATA_SOURCE = "dataSourceJndiName";
 
 	/**
 	 * method to be used if this app wants to use connection string for db

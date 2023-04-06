@@ -1,0 +1,1 @@
+{"name":"subjects","recordName":"subjects","serveGuests":true,"operations":["Create","Filter","Get","Update"],"controls":[{"name":"subjectId","label":"","controlType":"hidden"},{"name":"subjectName","label":"Name","controlType":"input"},{"name":"subjectCode","label":"Code","controlType":"input"}]}

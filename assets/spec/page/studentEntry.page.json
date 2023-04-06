@@ -1,0 +1,1 @@
+{"pageName":"studentEntry","componentForm":"students","templateType":"EntryPage","pageSelector":"student-entry","pageRoute":"student-entry","navMenuName":"","isSavePage":"","editRoute":"","routeTo":[{"name":"Save Record","route":"studentList"},{"name":"Navigate Back","route":"studentList"}]}

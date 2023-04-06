@@ -1,0 +1,19 @@
+{
+    "name": "students",
+    "recordName": "students",
+    "serveGuests": true,
+    "operations": ["Create", "Filter", "Get", "Update"],
+    "controls": [{
+        "name": "studentId",
+        "label": "",
+        "controlType": "hidden"
+    }, {
+        "name": "studentName",
+        "label": "Student Name",
+        "controlType": "input"
+    }, {
+        "name": "studentGender",
+        "label": "Student Gender",
+        "controlType": "dropDown"
+    }]
+}

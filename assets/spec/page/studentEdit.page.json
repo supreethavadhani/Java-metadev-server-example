@@ -1,0 +1,1 @@
+{"pageName":"studentEdit","componentForm":"students","templateType":"EditTemplate","pageSelector":"student-edit","pageRoute":"student-edit","navMenuName":"","isSavePage":true,"editRoute":"","routeTo":[{"name":"Save","route":"studentList"},{"name":"Cancel","route":"studentList"}]}

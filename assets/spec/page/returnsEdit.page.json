@@ -1,0 +1,1 @@
+{"pageName":"returnsEdit","componentForm":"returns","templateType":"EditTemplate","pageSelector":"app-return-edit","pageRoute":"return-edit","navMenuName":"","isSavePage":true,"editRoute":"","routeTo":[{"name":"Save","route":"returnsList"},{"name":"Cancel","route":"returnsList"}]}
